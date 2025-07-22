@@ -1,0 +1,19 @@
+# Python virtual env
+backend/env/
+
+# Django cache
+**/__pycache__/
+
+# SQLite (si no quieres subir tu DB)
+backend/tecsupconnect/db.sqlite3
+
+# Node modules
+frontend/tecsupconnect-web/node_modules/
+frontend/tecsupconnect-web/.vite/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
